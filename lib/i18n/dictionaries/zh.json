@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "services": "服务",
+    "pricing": "价格",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "viewPricing": "查看价格"
+  },
+  "footer": {
+    "tagline": "Telegram Accounts、Premium 及其他账户服务。",
+    "services": "服务",
+    "pricing": "价格",
+    "contact": "联系我们"
+  },
+  "home": {
+    "eyebrow": "Telegram Accounts · 服务",
+    "h1Line1": "购买 Telegram Accounts。",
+    "h1Line2": "按国家定价，安全可靠",
+    "subtitle": "Acceptor_org 出售 Telegram Accounts 及增值服务——按您所在国家的价格明码标价，没有隐藏步骤。",
+    "ctaPricing": "查看价格",
+    "ctaServices": "浏览服务",
+    "offerHeading": "我们提供的服务",
+    "allServices": "所有服务 →",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "按国家定价",
+    "starsDesc": "按 Telegram 为您所在国家设定的价格购买 Stars——浏览欧洲、亚洲、北美等地区的价格。",
+    "starsFrom": "低至 $0.30",
+    "trustFastTitle": "快速发货",
+    "trustFastBody": "付款确认后，Stars 及其他订单会很快到账。",
+    "trustClearTitle": "价格透明",
+    "trustClearBody": "所有价格档位提前列出——结账时没有额外费用。",
+    "trustSupportTitle": "直接支持",
+    "trustSupportBody": "对订单有疑问？可直接通过联系页面联系我们。"
+  },
+  "services": {
+    "eyebrow": "服务",
+    "h1": "我们出售的所有服务",
+    "subtitle": "点击下方服务查看价格档位，或直接前往价格页面查看完整对比。",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "按国家定价",
+    "starsDesc": "Stars 按 Telegram 为您所在国家设定的价格出售，因此价格取决于您的购买地区。",
+    "seePrices": "按国家查看价格 →",
+    "ctaText": "没有找到您需要的服务？",
+    "contactLink": "联系我们",
+    "ctaSuffix": "定制您的订单。"
+  },
+  "pricing": {
+    "eyebrow": "价格",
+    "h1": "简单透明的价格",
+    "subtitle": "目前仅展示价格——接入支付功能后将开放下单。",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "按国家定价",
+    "seeAll": "查看所有国家 →"
+  },
+  "starsPricing": {
+    "eyebrow": "Telegram Accounts 价格",
+    "h1": "按您所在国家的价格购买 Telegram Accounts",
+    "subtitle": "Telegram 会根据购买地区设定不同的 Stars 价格。请在下方选择您的国家，查看购买 Telegram Accounts 的确切价格——没有统一加价，无需猜测。",
+    "searchPlaceholder": "搜索{continent}地区的国家…",
+    "comingSoonText": "{continent}地区的分国家定价即将上线。",
+    "comingSoonContact": "现在就需要某个国家的价格？",
+    "contactUs": "联系我们",
+    "forQuote": "获取报价。",
+    "tableCountry": "国家",
+    "tableDial": "区号",
+    "tablePrice": "每单价格",
+    "buyButton": "购买",
+    "noMatch": "未找到与“{query}”匹配的国家。",
+    "faqHeading": "常见问题",
+    "continents": {
+      "europe": "欧洲",
+      "asia": "亚洲",
+      "northAmerica": "北美洲",
+      "africa": "非洲",
+      "southAmerica": "南美洲",
+      "oceania": "大洋洲"
+    },
+    "faqs": [
+      {
+        "q": "为什么购买 Telegram Accounts 的价格因国家而异？",
+        "a": "Telegram 会为每个地区以当地货币定价 Stars，因此美元等值会有所不同。我们直接将该地区价格提供给您，而不是对所有人统一收费。"
+      },
+      {
+        "q": "购买后多久能收到 Telegram Accounts？",
+        "a": "订单通常会在付款确认后不久发放到您的 Telegram 账户。"
+      },
+      {
+        "q": "购买 Stars 需要提供我的 Telegram 密码吗？",
+        "a": "不需要。我们只需要您的 Telegram 用户名即可发放 Stars——绝不需要您的密码或登录验证码。"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "关于我们",
+    "h1": "为活跃在 Telegram 上的用户而生",
+    "p1": "Acceptor_org 的想法很简单：购买 Stars 不应该需要在复杂的菜单中摸索或猜测价格。我们提前列出每个价格档位，让流程尽量直接。",
+    "p2": "请用您自己的故事替换这段文字——您是如何开始的、为什么选择 Telegram，以及是什么让您的服务值得首次购买者信赖。",
+    "verified": "每笔订单价格均经过核实。"
+  },
+  "contact": {
+    "eyebrow": "联系我们",
+    "h1": "联系方式",
+    "subtitle": "联系我们最快的方式是 Telegram。请在下方替换为您真实的用户名和邮箱。",
+    "telegram": "Telegram",
+    "email": "邮箱"
+  }
+}

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-paper font-body antialiased;
+  }
+  ::selection {
+    @apply bg-signal text-paper;
+  }
+}
+
+/* Signature element: the "verified tick" draw-in, echoing the Acceptor_org logo checkmark */
+@keyframes draw-tick {
+  from {
+    stroke-dashoffset: 60;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.tick-draw path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: draw-tick 0.9s ease forwards;
+  animation-delay: 0.15s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tick-draw path {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.focus-ring {
+  @apply outline-none focus-visible:ring-2 focus-visible:ring-signal focus-visible:ring-offset-2 focus-visible:ring-offset-ink;
+}

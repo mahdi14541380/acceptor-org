@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "viewPricing": "View pricing"
+  },
+  "footer": {
+    "tagline": "Telegram Accounts, Premium & account services.",
+    "services": "Services",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "home": {
+    "eyebrow": "Telegram Accounts · Services",
+    "h1Line1": "Buy Telegram Accounts.",
+    "h1Line2": "Verified, priced by country",
+    "subtitle": "Acceptor_org sells Telegram Accounts and add-on services — priced clearly at the rate for your country, no hidden steps.",
+    "ctaPricing": "See pricing",
+    "ctaServices": "Browse services",
+    "offerHeading": "What we offer",
+    "allServices": "All services →",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "Priced by country",
+    "starsDesc": "Buy Stars at the rate Telegram uses for your country — browse prices across Europe, Asia, North America and more.",
+    "starsFrom": "from $0.30",
+    "trustFastTitle": "Fast delivery",
+    "trustFastBody": "Stars and other orders land on your account shortly after payment confirms.",
+    "trustClearTitle": "Clear pricing",
+    "trustClearBody": "Every tier is listed up front — no surprise fees at checkout.",
+    "trustSupportTitle": "Direct support",
+    "trustSupportBody": "Questions about an order? Reach us straight from the contact page."
+  },
+  "services": {
+    "eyebrow": "Services",
+    "h1": "Everything we sell",
+    "subtitle": "Pick a service below to see its tiers, or go straight to the pricing page for a full side-by-side view.",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "Priced by country",
+    "starsDesc": "Stars are priced at the same rate Telegram uses for your country, so the cost depends on where you're buying from.",
+    "seePrices": "See prices by country →",
+    "ctaText": "Don't see what you need?",
+    "contactLink": "Contact us",
+    "ctaSuffix": "for a custom order."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "h1": "Simple, upfront prices",
+    "subtitle": "Display prices only for now — checkout will be added once payment is connected.",
+    "starsTitle": "Telegram Accounts",
+    "starsTagline": "Priced by country",
+    "seeAll": "See all countries →"
+  },
+  "starsPricing": {
+    "eyebrow": "Telegram Accounts pricing",
+    "h1": "Buy Telegram Accounts at your country's price",
+    "subtitle": "Telegram prices Stars differently depending on where you're buying from. Pick your country below to see the exact price to buy Telegram Accounts — no flat markup, no guessing.",
+    "searchPlaceholder": "Search a country in {continent}…",
+    "comingSoonText": "Per-country pricing for {continent} is coming soon.",
+    "comingSoonContact": "Need a country here now?",
+    "contactUs": "Contact us",
+    "forQuote": "for a quote.",
+    "tableCountry": "Country",
+    "tableDial": "Dial code",
+    "tablePrice": "Price per order",
+    "buyButton": "Buy",
+    "noMatch": "No country matches \"{query}\".",
+    "faqHeading": "Frequently asked questions",
+    "continents": {
+      "europe": "Europe",
+      "asia": "Asia",
+      "northAmerica": "North America",
+      "africa": "Africa",
+      "southAmerica": "South America",
+      "oceania": "Oceania"
+    },
+    "faqs": [
+      {
+        "q": "Why does the price to buy Telegram Accounts differ by country?",
+        "a": "Telegram prices Stars in local currency for each region, so the USD equivalent varies. We pass that regional pricing straight to you instead of charging one flat rate for everyone."
+      },
+      {
+        "q": "How fast will I receive my Telegram Accounts after I buy?",
+        "a": "Orders are typically delivered to your Telegram account shortly after payment is confirmed."
+      },
+      {
+        "q": "Do I need to share my Telegram password to buy Stars?",
+        "a": "No. We only need your Telegram username to deliver Stars — never your password or login code."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "h1": "Built for people who live on Telegram",
+    "p1": "Acceptor_org started as a simple idea: buying Stars shouldn't require digging through unclear menus or guessing at prices. We list every tier up front and keep the process direct.",
+    "p2": "Replace this paragraph with your own story — how you started, why Telegram, and what makes your service trustworthy to a first-time buyer.",
+    "verified": "Verified pricing, every order."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "h1": "Get in touch",
+    "subtitle": "The fastest way to reach us is Telegram. Replace the links below with your real handle and email once they're set up.",
+    "telegram": "Telegram",
+    "email": "Email"
+  }
+}
