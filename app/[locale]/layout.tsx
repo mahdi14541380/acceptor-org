@@ -22,21 +22,21 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   metadataBase: new URL("https://acceptororg.com"),
   title: {
-    default: "Acceptor_org — Buy Telegram Stars & Services",
+    default: "Acceptor_org — Buy Telegram Accounts & Services",
     template: "%s",
   },
   description:
-    "Buy Telegram Stars at the price for your country, plus other Telegram services. Clear pricing, fast delivery.",
+    "Buy Telegram Accounts at the price for your country, plus other Telegram services. Clear pricing, fast delivery.",
   keywords: [
-    "buy telegram stars",
-    "telegram stars price",
-    "buy stars telegram",
-    "telegram stars by country",
+    "buy telegram accounts",
+    "telegram accounts price",
+    "buy accounts telegram",
+    "telegram accounts by country",
   ],
   openGraph: {
-    title: "Acceptor_org — Buy Telegram Stars & Services",
+    title: "Acceptor_org — Buy Telegram accounts & Services",
     description:
-      "Buy Telegram Stars at the price for your country, plus other Telegram services.",
+      "Buy Telegram accounts at the price for your country, plus other Telegram services.",
     url: "https://acceptororg.com",
     siteName: "Acceptor_org",
     type: "website",
