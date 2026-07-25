@@ -4,7 +4,9 @@
     "pricing": "Pricing",
     "about": "About",
     "contact": "Contact",
-    "viewPricing": "View pricing"
+    "viewPricing": "View pricing",
+    "account": "Account",
+    "login": "Log in"
   },
   "footer": {
     "tagline": "Telegram Accounts, Premium & account services.",
@@ -23,10 +25,10 @@
     "allServices": "All services →",
     "starsTitle": "Telegram Accounts",
     "starsTagline": "Priced by country",
-    "starsDesc": "Buy Stars at the rate Telegram uses for your country — browse prices across Europe, Asia, North America and more.",
+    "starsDesc": "Buy Accounts at the rate Telegram uses for your country — browse prices across Europe, Asia, North America and more.",
     "starsFrom": "from $0.30",
     "trustFastTitle": "Fast delivery",
-    "trustFastBody": "Stars and other orders land on your account shortly after payment confirms.",
+    "trustFastBody": "Accounts and other orders land on your account shortly after payment confirms.",
     "trustClearTitle": "Clear pricing",
     "trustClearBody": "Every tier is listed up front — no surprise fees at checkout.",
     "trustSupportTitle": "Direct support",
@@ -38,7 +40,7 @@
     "subtitle": "Pick a service below to see its tiers, or go straight to the pricing page for a full side-by-side view.",
     "starsTitle": "Telegram Accounts",
     "starsTagline": "Priced by country",
-    "starsDesc": "Stars are priced at the same rate Telegram uses for your country, so the cost depends on where you're buying from.",
+    "starsDesc": "Accounts are priced at the same rate Telegram uses for your country, so the cost depends on where you're buying from.",
     "seePrices": "See prices by country →",
     "ctaText": "Don't see what you need?",
     "contactLink": "Contact us",
@@ -55,7 +57,7 @@
   "starsPricing": {
     "eyebrow": "Telegram Accounts pricing",
     "h1": "Buy Telegram Accounts at your country's price",
-    "subtitle": "Telegram prices Stars differently depending on where you're buying from. Pick your country below to see the exact price to buy Telegram Accounts — no flat markup, no guessing.",
+    "subtitle": "Telegram prices Accounts differently depending on where you're buying from. Pick your country below to see the exact price to buy Telegram Accounts — no flat markup, no guessing.",
     "searchPlaceholder": "Search a country in {continent}…",
     "comingSoonText": "Per-country pricing for {continent} is coming soon.",
     "comingSoonContact": "Need a country here now?",
@@ -63,7 +65,6 @@
     "forQuote": "for a quote.",
     "tableCountry": "Country",
     "tableDial": "Dial code",
-    "tablePrice": "Price per order",
     "buyButton": "Buy",
     "noMatch": "No country matches \"{query}\".",
     "faqHeading": "Frequently asked questions",
@@ -78,24 +79,82 @@
     "faqs": [
       {
         "q": "Why does the price to buy Telegram Accounts differ by country?",
-        "a": "Telegram prices Stars in local currency for each region, so the USD equivalent varies. We pass that regional pricing straight to you instead of charging one flat rate for everyone."
+        "a": "Telegram prices Accounts in local currency for each region, so the USD equivalent varies. We pass that regional pricing straight to you instead of charging one flat rate for everyone."
       },
       {
         "q": "How fast will I receive my Telegram Accounts after I buy?",
         "a": "Orders are typically delivered to your Telegram account shortly after payment is confirmed."
       },
       {
-        "q": "Do I need to share my Telegram password to buy Stars?",
-        "a": "No. We only need your Telegram username to deliver Stars — never your password or login code."
+        "q": "Do I need to share my Telegram password to buy Accounts?",
+        "a": "No. We only need your Telegram username to deliver Accounts — never your password or login code."
       }
-    ]
+    ],
+    "tablePriceOld": "Old",
+    "tablePriceNew": "New"
   },
   "about": {
     "eyebrow": "About",
     "h1": "Built for people who live on Telegram",
-    "p1": "Acceptor_org started as a simple idea: buying Stars shouldn't require digging through unclear menus or guessing at prices. We list every tier up front and keep the process direct.",
+    "p1": "Acceptor_org started as a simple idea: buying Accounts shouldn't require digging through unclear menus or guessing at prices. We list every tier up front and keep the process direct.",
     "p2": "Replace this paragraph with your own story — how you started, why Telegram, and what makes your service trustworthy to a first-time buyer.",
     "verified": "Verified pricing, every order."
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "signupTitle": "Create an account",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Log in",
+    "signupButton": "Sign up",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create one",
+    "haveAccount": "Already have an account?",
+    "logInInstead": "Log in",
+    "signupSuccess": "Check your email for a confirmation link to finish signing up.",
+    "errorGeneric": "Something went wrong. Please try again."
+  },
+  "account": {
+    "eyebrow": "Account",
+    "h1": "Your account",
+    "balanceLabel": "Balance",
+    "topupHeading": "Add funds (USDT, TRC-20)",
+    "amountLabel": "Amount (USD)",
+    "topupButton": "Generate deposit address",
+    "topupHint": "Send exactly the USDT amount shown to the address below. Your balance updates automatically once the network confirms it.",
+    "ordersHeading": "Order history",
+    "noOrders": "No orders yet.",
+    "buyStarsHeading": "Buy Accounts",
+    "telegramUsernameLabel": "Your Telegram username",
+    "countryLabel": "Country",
+    "buyButton": "Buy now",
+    "insufficientBalance": "Insufficient balance — add funds above first.",
+    "signOut": "Sign out",
+    "quantityLabel": "Number of Accounts",
+    "totalLabel": "Total",
+    "viewReceipt": "View receipt",
+    "tierLabel": "Account type",
+    "tierOld": "Old create",
+    "tierNew": "New create",
+    "topupsHeading": "Payment history",
+    "noTopups": "No top-ups yet.",
+    "depositAddressLabel": "Pay to",
+    "tabAddFunds": "Add funds",
+    "tabBuyStars": "Buy Accounts",
+    "tabPayments": "Payments",
+    "tabOrders": "Orders",
+    "tabHistory": "History"
+  },
+  "admin": {
+    "eyebrow": "Admin",
+    "h1": "Manage Accounts prices",
+    "countryLabel": "Country",
+    "currentPriceLabel": "Current price",
+    "newPriceLabel": "New price (USD)",
+    "saveButton": "Save",
+    "saved": "Saved",
+    "tierOld": "Old",
+    "tierNew": "New"
   },
   "contact": {
     "eyebrow": "Contact",

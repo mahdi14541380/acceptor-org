@@ -43,7 +43,7 @@ export default async function PricingPage({ params }: { params: { locale: string
                   {c.flag} {countryNames[c.key]?.[locale] ?? c.key}
                 </span>
                 <span className="font-mono text-signal">
-                  ${c.price.toFixed(2)}
+                  ${c.price.toFixed(2)} / ${c.priceNew.toFixed(2)}
                 </span>
               </li>
             ))}

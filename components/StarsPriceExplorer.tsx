@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import { continents } from "@/lib/countries";
 import { countryNames } from "@/lib/i18n/countryNames";
-import { TELEGRAM_BUY_BOT_URL } from "@/lib/config";
 import { format } from "@/lib/i18n/format";
 import type { Dictionary } from "@/lib/i18n/getDictionary";
 import type { Locale } from "@/lib/i18n/locales";
@@ -98,7 +97,10 @@ export function StarsPriceExplorer({
                   <th className="px-5 py-3 font-medium">{dict.tableCountry}</th>
                   <th className="px-5 py-3 font-medium">{dict.tableDial}</th>
                   <th className="px-5 py-3 text-right font-medium">
-                    {dict.tablePrice}
+                    {dict.tablePriceOld}
+                  </th>
+                  <th className="px-5 py-3 text-right font-medium">
+                    {dict.tablePriceNew}
                   </th>
                   <th className="px-5 py-3 text-right font-medium"></th>
                 </tr>
@@ -125,11 +127,12 @@ export function StarsPriceExplorer({
                       <td className="px-5 py-3 text-right font-mono text-signal">
                         ${c.price.toFixed(2)}
                       </td>
+                      <td className="px-5 py-3 text-right font-mono text-signal">
+                        ${c.priceNew.toFixed(2)}
+                      </td>
                       <td className="px-5 py-3 text-right">
                         <a
-                          href={TELEGRAM_BUY_BOT_URL}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                          href={`/${locale}/account?country=${c.key}`}
                           className="focus-ring inline-block rounded-full bg-signal px-4 py-1.5 text-xs font-semibold text-paper transition hover:bg-signalDeep"
                         >
                           {dict.buyButton}
@@ -139,7 +142,7 @@ export function StarsPriceExplorer({
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={4} className="px-5 py-8 text-center text-paper/50">
+                    <td colSpan={5} className="px-5 py-8 text-center text-paper/50">
                       {format(dict.noMatch, { query })}
                     </td>
                   </tr>

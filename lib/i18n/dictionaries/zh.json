@@ -4,7 +4,9 @@
     "pricing": "价格",
     "about": "关于我们",
     "contact": "联系我们",
-    "viewPricing": "查看价格"
+    "viewPricing": "查看价格",
+    "account": "账户",
+    "login": "登录"
   },
   "footer": {
     "tagline": "Telegram Accounts、Premium 及其他账户服务。",
@@ -63,7 +65,6 @@
     "forQuote": "获取报价。",
     "tableCountry": "国家",
     "tableDial": "区号",
-    "tablePrice": "每单价格",
     "buyButton": "购买",
     "noMatch": "未找到与“{query}”匹配的国家。",
     "faqHeading": "常见问题",
@@ -88,7 +89,9 @@
         "q": "购买 Stars 需要提供我的 Telegram 密码吗？",
         "a": "不需要。我们只需要您的 Telegram 用户名即可发放 Stars——绝不需要您的密码或登录验证码。"
       }
-    ]
+    ],
+    "tablePriceOld": "旧号",
+    "tablePriceNew": "新号"
   },
   "about": {
     "eyebrow": "关于我们",
@@ -96,6 +99,62 @@
     "p1": "Acceptor_org 的想法很简单：购买 Stars 不应该需要在复杂的菜单中摸索或猜测价格。我们提前列出每个价格档位，让流程尽量直接。",
     "p2": "请用您自己的故事替换这段文字——您是如何开始的、为什么选择 Telegram，以及是什么让您的服务值得首次购买者信赖。",
     "verified": "每笔订单价格均经过核实。"
+  },
+  "auth": {
+    "loginTitle": "登录",
+    "signupTitle": "创建账户",
+    "emailLabel": "邮箱",
+    "passwordLabel": "密码",
+    "loginButton": "登录",
+    "signupButton": "注册",
+    "noAccount": "还没有账户？",
+    "createOne": "立即创建",
+    "haveAccount": "已有账户？",
+    "logInInstead": "去登录",
+    "signupSuccess": "请查收邮箱中的确认链接以完成注册。",
+    "errorGeneric": "出了点问题，请重试。"
+  },
+  "account": {
+    "eyebrow": "账户",
+    "h1": "我的账户",
+    "balanceLabel": "余额",
+    "topupHeading": "充值（USDT，TRC-20）",
+    "amountLabel": "金额（美元）",
+    "topupButton": "生成充值地址",
+    "topupHint": "请将显示的 USDT 金额准确发送到下方地址。网络确认后余额将自动更新。",
+    "ordersHeading": "订单记录",
+    "noOrders": "暂无订单。",
+    "buyStarsHeading": "购买 Stars",
+    "telegramUsernameLabel": "您的 Telegram 用户名",
+    "countryLabel": "国家",
+    "buyButton": "立即购买",
+    "insufficientBalance": "余额不足——请先充值。",
+    "signOut": "退出登录",
+    "quantityLabel": "Stars 数量",
+    "totalLabel": "总计",
+    "viewReceipt": "查看凭证",
+    "tierLabel": "账户类型",
+    "tierOld": "旧号",
+    "tierNew": "新号",
+    "topupsHeading": "支付记录",
+    "noTopups": "暂无充值记录。",
+    "depositAddressLabel": "付款至",
+    "tabAddFunds": "充值",
+    "tabBuyStars": "购买 Stars",
+    "tabPayments": "支付记录",
+    "tabOrders": "订单",
+    "tabHistory": "记录"
+  },
+  "admin": {
+    "eyebrow": "管理员",
+    "h1": "管理 Stars 价格",
+    "countryLabel": "国家",
+    "currentPriceLabel": "当前价格",
+    "newPriceLabel": "新价格（美元）",
+    "saveButton": "保存",
+    "saved": "已保存",
+    "tierOld": "旧号",
+    "tierNew": "新号"
   },
   "contact": {
     "eyebrow": "联系我们",

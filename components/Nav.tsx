@@ -2,14 +2,26 @@ import Link from "next/link";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Dictionary } from "@/lib/i18n/getDictionary";
 import type { Locale } from "@/lib/i18n/locales";
+import { createClient } from "@/lib/supabase/server";
 
-export function Nav({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+export async function Nav({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const links = [
     { href: `/${locale}/services`, label: dict.nav.services },
     { href: `/${locale}/pricing`, label: dict.nav.pricing },
     { href: `/${locale}/about`, label: dict.nav.about },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
+
+  let isSignedIn = false;
+  try {
+    const supabase = createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    isSignedIn = !!user;
+  } catch {
+    // Supabase env vars not set yet during local scaffolding — treat as signed out.
+  }
 
   return (
     <header className="sticky top-0 z-50 border-b border-steelLine/60 bg-ink/85 backdrop-blur">
@@ -33,8 +45,14 @@ export function Nav({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <div className="flex items-center gap-3">
           <LanguageSwitcher locale={locale} />
           <Link
+            href={isSignedIn ? `/${locale}/account` : `/${locale}/login`}
+            className="focus-ring rounded-full border border-steelLine px-4 py-2 font-body text-sm text-paper/80 transition hover:border-paper/40 hover:text-paper"
+          >
+            {isSignedIn ? dict.nav.account : dict.nav.login}
+          </Link>
+          <Link
             href={`/${locale}/pricing`}
-            className="focus-ring rounded-full bg-signal px-4 py-2 font-body text-sm font-semibold text-paper transition hover:bg-signalDeep"
+            className="focus-ring hidden rounded-full bg-signal px-4 py-2 font-body text-sm font-semibold text-paper transition hover:bg-signalDeep sm:inline-block"
           >
             {dict.nav.viewPricing}
           </Link>
